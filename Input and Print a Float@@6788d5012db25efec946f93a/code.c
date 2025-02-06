@@ -8,7 +8,7 @@ int main() {
     scanf("%f", &number);
 
     
-    printf("%f\n", number);
+    printf("You entered: %f\n", number);
 
     return 0;
 }
