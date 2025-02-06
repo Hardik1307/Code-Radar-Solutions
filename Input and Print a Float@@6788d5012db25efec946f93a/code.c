@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-int main() 
-{
-    float input;
+int main() {
+    float number;
     
-    printf("");
-    scanf("%f", &input);
+   
+    printf();
+    scanf("%f", &number);
+
     
-    printf("You entered: %f\n", input);
-    
+    printf("%f\n", number);
+
     return 0;
 }
