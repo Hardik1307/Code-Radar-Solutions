@@ -4,10 +4,10 @@ int main()
 {
     float input;
     
-    printf(" ");
+    printf();
     scanf("%f", &input);
     
-    printf(" %f\n", input);
+    printf("You entered: %f\n", input);
     
     return 0;
 }
