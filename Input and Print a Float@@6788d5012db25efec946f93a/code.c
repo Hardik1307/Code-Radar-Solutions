@@ -4,7 +4,7 @@ int main() {
     float number;
     
    
-    printf();
+    printf("");
     scanf("%f", &number);
 
     
