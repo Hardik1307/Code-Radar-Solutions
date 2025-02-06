@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char input[100];  n
+    char input[100]; 
 
     fgets(input, sizeof(input), stdin);
 
