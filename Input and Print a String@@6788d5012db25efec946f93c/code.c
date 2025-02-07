@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    char input[100]; 
+    char str[100];  
+    scanf("%s", str);
 
-    fgets(input, sizeof(input), stdin);
-
-    printf("%s", input);
+    printf("You entered: %s\n", str);
 
     return 0;
 }
+
