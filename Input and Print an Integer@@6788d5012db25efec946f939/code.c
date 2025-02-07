@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int a;
-    scanf("%i", &a);
-    printf("You entered: %.2i", a);
+    int num;
+
+    scanf("%d", &num);
+
+    printf("You entered: %d\n", num);
 
     return 0;
 }
