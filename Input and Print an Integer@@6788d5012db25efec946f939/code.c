@@ -2,10 +2,8 @@
 
 int main() {
     int num;
-
-    scanf("%d", &num);
-
-    printf("You entered: %d\n", num);
-
+    printf("");
+    scanf("%d",&num);
+    printf("You entered: %d";num);
     return 0;
 }
