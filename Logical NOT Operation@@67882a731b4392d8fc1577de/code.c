@@ -4,8 +4,9 @@ int main{
     int num1;
     scanf("%d ",&num1);
     if num<0{
-        printf("True")
+        printf("True");
     }else{
-        printf("False")
+        printf("False");
     }
+    return 0;
 }
