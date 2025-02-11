@@ -4,9 +4,10 @@ int main{
     int num1;
     scanf("%d",&num1);
     if num<0{
-        printf("True");
-    }else{
-        printf("False");
+        printf("True\n");
+    }
+    else{
+        printf("False\n");
     }
     return 0;
 }
