@@ -12,8 +12,11 @@ int main(){
     else if(ch =='*'){
         printf("%d",num1*num2);
     }
-    else{
+    else if(ch == '/'){
         printf("%d",num1/num2);
+    }
+    else{
+        printf("ol")
     }
     return 0;
 }
