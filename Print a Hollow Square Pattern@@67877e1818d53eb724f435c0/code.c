@@ -14,7 +14,7 @@ int main(){
         }printf("*\n");        
     }
 
-    for(l=1,l<=num,l+=1){
+    for(l=1;l<=num;l+=1){
         printf("*");
     }
     printf("\n");
