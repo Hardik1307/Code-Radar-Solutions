@@ -10,12 +10,10 @@ int main(){
         printf("*");
         for(k=0;k<(num-2);k+=1){
             printf(" ");
-        }printf("*");
-
-        
+        }printf("*");        
     }
 
-    for(i=1,i<=num,i+=1){
+    for(l=1,l<=num,l+=1){
         printf("*")
     }
 }
