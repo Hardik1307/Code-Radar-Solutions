@@ -16,7 +16,7 @@ int main(){
         printf("%d",num1/num2);
     }
     else{
-        printf("ol")
+        printf("ol");
     }
     return 0;
 }
