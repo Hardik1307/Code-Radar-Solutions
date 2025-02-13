@@ -8,7 +8,7 @@ int main(){
     }else if(num==4||num==6||num==9||num==11){
         printf("30");
     }else{
-        printf("28")
+        printf("28");
     }
     return 0;
 }
