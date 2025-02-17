@@ -4,14 +4,13 @@
 #include <math.h>
 
 int main() {
-    int num1,num2;
-    scanf("%d %d",&num1,&num2);
-    
-    if ((num1>0&&num2<0)||(num1==0 &&num2==0)){
-        printf("True\n");
+    int n1,n2;
+    scanf("%d %d",&n1,&n2);
+    if((n1>0&&n2<0)||(n1==0&&n2==0)){
+        printf("True");
     }
     else{
-        printf("False\n");
+        printf("False");
     }
     return 0;
 }
