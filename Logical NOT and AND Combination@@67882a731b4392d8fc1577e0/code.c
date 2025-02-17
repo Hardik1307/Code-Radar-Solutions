@@ -1,1 +1,13 @@
 // Your code here...
+#include<stdio.h>
+int main(){
+    int n1,n2;
+    scanf("%d %d",&n1,&n2);
+    if(num1<0&&num<0){
+        printf("True");
+    }
+    else{
+        printf("False");
+    }
+    return 0;
+}
