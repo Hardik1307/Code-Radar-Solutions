@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main(){
     int a,b;
-    scanf("%d %d",&a);
+    scanf("%d",&a);
     int r=1;
     while(true){
         if (a&r){
@@ -15,7 +15,7 @@ int main(){
 
     }
     
-    a=a^(r);
+    
     
     return 0;
     
