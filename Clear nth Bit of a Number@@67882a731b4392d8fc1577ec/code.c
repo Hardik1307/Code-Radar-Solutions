@@ -5,10 +5,10 @@ int main(){
     int a,b;
     scanf("%d %d",&a,&b);
     int r=1;
-    for (int i=1;i<=b;i++){
-        r*=2;
-    }
-    
+    // for (int i=1;i<=b;i++){
+    //     r*=2;
+    // }
+    r=pow(2,b);
     a=a&(~r);
     printf("%d",a);
     return 0;
