@@ -11,6 +11,6 @@ int main(){
     
     a=a&(~r);
     printf("%d",a);
-
+    return 0;
     
 }
