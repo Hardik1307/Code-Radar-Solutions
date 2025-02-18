@@ -10,7 +10,7 @@ int main(){
                 break;
         Case 'G' = printf("Go");
                 break;
-        default = printf("Invalid input")
+        default = printf("Invalid input");
     }
     return 0;
 }
