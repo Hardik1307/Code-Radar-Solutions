@@ -5,15 +5,16 @@ int main(){
     int a;
     scanf("%d",&a);
     int r=1;
-    while(true){
+    do{
         if (a&r){
             printf("%d",a);
-            break;
+            
         }
         
         r*=2;
 
     }
+    while(!(a&r));
     
     
     
