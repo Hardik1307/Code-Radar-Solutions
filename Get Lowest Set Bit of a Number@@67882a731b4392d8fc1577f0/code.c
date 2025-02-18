@@ -2,21 +2,21 @@
 #include<math.h>
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    int r=1;
-    do{
-        if (a&r){
-            printf("%d",a);
-            
+    int a,b;
+    scanf("%d %d",&a);
+    
+    for (int i=1;i<=a;i++){
+
+        if ((a>>1)%2){
+            printf("%d",i);
+            break;
         }
         
-        r*=2;
+        
 
     }
-    while(!(a&r));
     
-    
+    a=a^(r);
     
     return 0;
     
