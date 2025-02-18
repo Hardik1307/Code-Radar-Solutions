@@ -5,7 +5,7 @@ int main(){
     int a,b;
     scanf(%d %d,&a,&b);
     r=b;
-    b=pow(2,r);
+    b=pow(r,2);
     a=a&~r;
     printf("%d",a);
 
