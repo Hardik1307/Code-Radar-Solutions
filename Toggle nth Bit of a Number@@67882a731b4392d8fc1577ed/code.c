@@ -8,7 +8,7 @@ int main(){
     for (int i=1;i<=b;i++){
         r*=2;
     }
-    r=pow(2,b);
+    
     a=a^(~r);
     printf("%d",a);
     return 0;
