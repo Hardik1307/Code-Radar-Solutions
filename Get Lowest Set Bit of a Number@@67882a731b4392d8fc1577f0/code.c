@@ -3,10 +3,10 @@
 #include<stdio.h>
 int main(){
     int a,b;
-    scanf("%d %d",&a,&b);
+    scanf("%d %d",&a);
     int r=1;
-    for (int i=1;i<=b;i++){
-        if (a&b){
+    while(true){
+        if (a&r){
             printf("%d",a);
             break;
         }
