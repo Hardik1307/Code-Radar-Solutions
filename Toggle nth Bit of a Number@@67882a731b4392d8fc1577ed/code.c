@@ -9,7 +9,7 @@ int main(){
         r*=2;
     }
     
-    a=a^(~r);
+    a=a|(~r);
     printf("%d",a);
     return 0;
     
