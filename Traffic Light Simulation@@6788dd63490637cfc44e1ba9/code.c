@@ -3,14 +3,14 @@
 int main(){
     char ch;
     scanf("%c",&ch);
-    switch(ch){
-        case'R':printf("Stop");
+    switch (ch){
+        Case 'R' = printf("Stop");
                 break;
-        case'G':printf("Go");
+        Case 'Y' = printf("Slow Down");
                 break;
-        case'Y':printf("Slow Down");
+        Case 'G' = printf("Go");
                 break;
-        default:printf("Invalid input");
+        default = printf("Invalid input")
     }
     return 0;
 }
