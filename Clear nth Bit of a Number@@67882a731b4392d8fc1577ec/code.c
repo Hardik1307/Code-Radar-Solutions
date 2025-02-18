@@ -1,14 +1,13 @@
-// Your code here...
-#include<math.h>
+
 #include<stdio.h>
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
     int r=1;
-    // for (int i=1;i<=b;i++){
-    //     r*=2;
-    // }
-    r=pow(2,b);
+    for (int i=1;i<=b;i++){
+        r*=2;
+    }
+   
     a=a&(~r);
     printf("%d",a);
     return 0;
