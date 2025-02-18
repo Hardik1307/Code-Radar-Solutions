@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&a);
     
     for (int i=1;i<=a;i++){
-
+        printf("%d",i);
         if ((a>>1)&1){
             printf("%d",i);
             break;
