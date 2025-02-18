@@ -3,7 +3,7 @@
 int main(){
     char ch;
     scanf("%c",&ch);
-    switch (ch){
+    switch(ch){
         Case 'R' = printf("Stop");
                 break;
         Case 'Y' = printf("Slow Down");
