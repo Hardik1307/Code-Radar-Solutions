@@ -7,13 +7,13 @@ int main() {
             printf("");
         }
         for(k=1;k<=(2*num-1);k++){
-            printf("*")
+            printf("*");
 
         }
         for(j=1;j<=num-i;j++){
             printf("");
         }
-        for()
+        
     }
     return 0;
 }
