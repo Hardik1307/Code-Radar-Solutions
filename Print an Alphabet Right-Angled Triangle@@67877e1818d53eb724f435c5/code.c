@@ -6,8 +6,9 @@ int main(){
     for(i=1;i<=n;i++){
         char C;
         for(j=1;j<=i;j++){
-            printf("%c",&C);
+            printf("%c",C);
         }
         char++
     }
+    return 0;
 }
