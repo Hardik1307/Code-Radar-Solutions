@@ -6,11 +6,10 @@ int main() {
     for(i=1;i<=num;i+=1){
         for(j=1;j<num;j+=1){
             printf(" ");
-        }
-        for(k=1;k<i;k+=1){
+            for(k=1;k<i;k+=1){
             printf("*");
-        }
-    printf("\n");
+        }}
+        printf("\n");
     }
     return 0;
 }
