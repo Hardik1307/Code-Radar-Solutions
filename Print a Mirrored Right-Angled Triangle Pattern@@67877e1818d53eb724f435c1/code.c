@@ -9,8 +9,9 @@ int main() {
         }
         for(k=1;k<=i;k+=1){
             printf("*");
+            printf("\n");
         }
-    printf("\n");
+    
     }
     return 0;
 }
