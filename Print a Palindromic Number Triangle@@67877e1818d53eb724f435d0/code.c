@@ -2,6 +2,7 @@
 #include<stdio.h>
 int main(){
     int n,i,j,k,l;
+    int o;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         for(j=1;j<n-i;j++){
@@ -13,7 +14,7 @@ int main(){
             m++;
             m=o;
         }
-        int o;
+        
         for(l=1;l<i;l++){
             printf("%d",--o);
         }
