@@ -16,15 +16,17 @@ int main() {
         printf("\n");
     }
     for(i=num-1;i>0;i--){
-        for(j=1;j<=num-1;j++){
+        for(j=1;j<=num-i;j++){
             printf(" ");
         }
-        for(k=i;k>=0;k--){
+        for(k=i;k>(2*i-1);k--){
             printf("*");
         }
-        for(j=1;j<=num-1;j++){
+        for(j=1;j<=num-i;j++){
             printf(" ");
         }
+
+        
         printf("\n");
     }
     return 0;
