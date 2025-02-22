@@ -15,5 +15,16 @@ int main() {
         }
         printf("\n");
     }
+    for(i=n-1;i>0;i--){
+        for(j=1;j<=n-1;j++){
+            printf(" ");
+        }
+        for(k=i,k<=0;k++){
+            printf("*");
+        }
+        for(j=1;j<=n-1;j++){
+            printf(" ");
+        printf("\n");
+    }
     return 0;
 }
