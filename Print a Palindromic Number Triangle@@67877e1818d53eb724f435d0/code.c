@@ -2,21 +2,16 @@
 #include<stdio.h>
 int main(){
     int n,i,j,k,l;
-    int o;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         for(j=1;j<n-i;j++){
             printf(" ");
         }
-        int m=1;
         for(k=1;k<=i;k++){
-            printf("%d",m);
-            m++;
-            m=o;
+            printf("%d",k);
         }
-        
-        for(l=1;l<i;l++){
-            printf("%d",--o);
+        for(l=i-1;l>0;l++){
+            printf("%d",l);
         }
     printf("\n");
     }
