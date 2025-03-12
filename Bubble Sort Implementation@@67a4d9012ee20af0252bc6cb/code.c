@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-int main() {
+int sort() {
     int n;
     scanf("%d",&n);
     int arr[n];
@@ -10,4 +10,7 @@ int main() {
     bubbleSort(arr, n);
     printArray(arr, n);
     return 0;
+}
+int main(){
+    sort();
 }
