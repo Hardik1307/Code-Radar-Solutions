@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<math.h>
-bool isprime(int n);
-isprime(int n){
+int isPrime(int n);
+
+isPrime(int n){
      if (n <= 1) {
         return 0;}
     if (n == 2) {
