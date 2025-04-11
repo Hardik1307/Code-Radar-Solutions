@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int isprime(int n);
 isprime(int n){
      if (n <= 1) {
