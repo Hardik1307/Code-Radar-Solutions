@@ -1,32 +1,35 @@
-#include <stdio.h>
-#include <stdbool.h>
-#include <math.h>
+#include<stdio.h>
+#include<math.h>
+int isPrime(int n);
 
-bool isPrime(int n) {
-    if (n <= 1) return false;
-    if (n == 2) return true;
-    if (n % 2 == 0) return false;
+int isPrime(int n){
+     if (n <= 1) {
+        return 0;}
+    if (n == 2) {
+        return 1;}
+    if (n % 2 == 0) {
+        return 0;}
     
     for (int i = 3; i <= sqrt(n); i += 2) {
         if (n % i == 0) {
-            return false;
+            return 0;
         }
-    }
-    return true;
-}
+   }
+     return 1;
 
+}
 int main() {
-    int n;
-    scanf("%d", &n); // Read number of test cases
-    
-    int numbers[n];
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &numbers[i]); // Read each number
+    int t;
+    scanf("%d", &t);
+
+    int numbers[t];
+    for (int i = 0; i < t; i++) {
+        scanf("%d", &numbers[i]); 
     }
     
-    for (int i = 0; i < n; i++) {
-        printf("%d\n", isPrime(numbers[i]) ? 1 : 0); // Output 1 or 0
+    for (int i = 0; i < t; i++) {
+        printf("%d\n", isPrime(numbers[i])); 
     }
-    
+      
     return 0;
 }
