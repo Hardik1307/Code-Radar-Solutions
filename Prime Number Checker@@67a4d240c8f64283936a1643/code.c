@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-int isprime(int n);
+bool isprime(int n);
 isprime(int n){
      if (n <= 1) {
         return 0;}
