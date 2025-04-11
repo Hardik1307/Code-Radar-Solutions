@@ -21,10 +21,15 @@ int isPrime(int n){
 int main(){
     int t;
     scanf("%d", &t);
-    while(t--){
-        int num;
-        scanf("%d",&num);
-        printf("%d\n",isPrime(num));
+
+    int numbers[t];
+    for (int i = 0; i < t; i++) {
+        scanf("%d", &numbers[i]); 
     }
+    
+    for (int i = 0; i < t; i++) {
+        printf("%d\n", isPrime(numbers[i])); 
+    }
+      
     return 0;
 }
