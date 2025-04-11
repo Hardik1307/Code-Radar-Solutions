@@ -1,38 +1,25 @@
-#include <stdio.h>
-
-void bubbleSort(int arr[], int n) {
-    for (int i = 0; i < n - 1; i++) {
-        int swapped = 0; // Flag to check if any swap occurred
-        for (int j = 0; j < n - i - 1; j++) {
-            if (arr[j] > arr[j + 1]) {
-                int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
-                swapped = 1;
-            }
+#include<stdio.h>
+int isprime(int n);
+isprime(int n){
+     if (n <= 1) return 0;
+    if (n == 2) return 1;
+    if (n % 2 == 0) return 0;
+    
+    for (int i = 3; i <= sqrt(n); i += 2) {
+        if (n % i == 0) {
+            return 0;
         }
-        if (!swapped) break; // Early termination if no swaps
     }
+    return 1;
+
 }
-
-void printArray(int arr[], int n) {
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+int main(){
+    int t;
+    scanf("%d", &t);
+    while(t--){
+        int num;
+        scanf("%d",&num);
+        printf("%d\n",isPrime(num));
     }
-    printf("\n"); // Add newline for better formatting
-}
-
-int main() {
-    int n;
-    scanf("%d", &n);
-    if (n <= 0) return 0; // Handle invalid input
-
-    int arr[n];
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-
-    bubbleSort(arr, n);
-    printArray(arr, n);
     return 0;
 }
