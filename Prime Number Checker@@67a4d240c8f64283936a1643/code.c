@@ -2,21 +2,7 @@
 #include<math.h>
 int isPrime(int n);
 
-int main(){
-    int t;
-    scanf("%d", &t);
 
-    int numbers[t];
-    for (int i = 0; i < t; i++) {
-        scanf("%d", &numbers[i]); 
-    }
-    
-    for (int i = 0; i < t; i++) {
-        printf("%d\n", isPrime(numbers[i])); 
-    }
-      
-    return 0;
-}
 
 int isPrime(int n){
      if (n <= 1) {
